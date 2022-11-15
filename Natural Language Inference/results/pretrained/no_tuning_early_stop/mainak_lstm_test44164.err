@@ -1,0 +1,13 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /home/mainakbiswas/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/mainakbiswas/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+  0%|          | 0/15 [00:00<?, ?it/s]  7%|▋         | 1/15 [03:33<49:48, 213.44s/it] 13%|█▎        | 2/15 [07:07<46:22, 214.01s/it] 20%|██        | 3/15 [10:43<42:58, 214.87s/it] 27%|██▋       | 4/15 [14:18<39:23, 214.89s/it] 33%|███▎      | 5/15 [17:51<35:43, 214.31s/it] 40%|████      | 6/15 [21:24<32:02, 213.67s/it] 47%|████▋     | 7/15 [24:58<28:30, 213.85s/it] 53%|█████▎    | 8/15 [28:34<25:01, 214.45s/it] 60%|██████    | 9/15 [32:09<21:27, 214.53s/it] 67%|██████▋   | 10/15 [35:41<17:49, 213.97s/it] 73%|███████▎  | 11/15 [39:12<14:11, 212.90s/it] 80%|████████  | 12/15 [42:46<10:40, 213.34s/it] 87%|████████▋ | 13/15 [46:23<07:08, 214.48s/it] 93%|█████████▎| 14/15 [50:00<03:35, 215.34s/it]100%|██████████| 15/15 [53:37<00:00, 215.61s/it]100%|██████████| 15/15 [53:37<00:00, 214.48s/it]qt.qpa.xcb: could not connect to display localhost:10.0
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, webgl, xcb.
+
+/var/spool/slurmd/job44164/slurm_script: line 11: 109470 Aborted                 (core dumped) python /home/mainakbiswas/driver_code_lstm.py

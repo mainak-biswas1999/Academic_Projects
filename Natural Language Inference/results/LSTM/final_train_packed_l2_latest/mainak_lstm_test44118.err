@@ -1,0 +1,15 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /home/mainakbiswas/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/mainakbiswas/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [04:50<3:08:51, 290.56s/it]  5%|▌         | 2/40 [10:54<3:31:26, 333.85s/it]  8%|▊         | 3/40 [16:44<3:30:20, 341.09s/it] 10%|█         | 4/40 [21:23<3:10:00, 316.67s/it] 12%|█▎        | 5/40 [26:57<3:08:16, 322.74s/it] 15%|█▌        | 6/40 [33:02<3:11:02, 337.13s/it] 18%|█▊        | 7/40 [38:00<2:58:25, 324.40s/it] 20%|██        | 8/40 [43:13<2:51:09, 320.92s/it] 22%|██▎       | 9/40 [49:19<2:52:56, 334.74s/it] 25%|██▌       | 10/40 [54:38<2:45:02, 330.08s/it] 28%|██▊       | 11/40 [59:16<2:31:49, 314.14s/it] 30%|███       | 12/40 [1:05:23<2:34:05, 330.20s/it] 32%|███▎      | 13/40 [1:11:12<2:31:08, 335.86s/it] 35%|███▌      | 14/40 [1:15:49<2:17:51, 318.13s/it] 38%|███▊      | 15/40 [1:21:27<2:15:00, 324.03s/it] 40%|████      | 16/40 [1:27:33<2:14:43, 336.81s/it] 42%|████▎     | 17/40 [1:32:26<2:04:04, 323.66s/it] 45%|████▌     | 18/40 [1:37:35<1:56:58, 319.02s/it] 48%|████▊     | 19/40 [1:43:33<1:55:46, 330.77s/it] 50%|█████     | 20/40 [1:48:45<1:48:25, 325.27s/it] 52%|█████▎    | 21/40 [1:53:31<1:39:16, 313.48s/it] 55%|█████▌    | 22/40 [1:59:28<1:37:54, 326.36s/it] 57%|█████▊    | 23/40 [2:05:16<1:34:18, 332.87s/it] 60%|██████    | 24/40 [2:09:51<1:24:08, 315.52s/it] 62%|██████▎   | 25/40 [2:15:23<1:20:09, 320.62s/it] 65%|██████▌   | 26/40 [2:21:17<1:17:07, 330.52s/it] 68%|██████▊   | 27/40 [2:26:14<1:09:26, 320.48s/it] 70%|███████   | 28/40 [2:30:57<1:01:52, 309.38s/it] 72%|███████▎  | 29/40 [2:36:56<59:25, 324.10s/it]   75%|███████▌  | 30/40 [2:42:30<54:30, 327.06s/it] 78%|███████▊  | 31/40 [2:47:02<46:36, 310.71s/it] 80%|████████  | 32/40 [2:52:34<42:16, 317.03s/it] 82%|████████▎ | 33/40 [2:58:34<38:28, 329.85s/it] 85%|████████▌ | 34/40 [3:03:28<31:55, 319.17s/it] 88%|████████▊ | 35/40 [3:08:31<26:11, 314.24s/it] 90%|█████████ | 36/40 [3:14:33<21:54, 328.56s/it] 92%|█████████▎| 37/40 [3:19:54<16:19, 326.44s/it] 95%|█████████▌| 38/40 [3:24:42<10:29, 314.76s/it] 98%|█████████▊| 39/40 [3:30:44<05:28, 328.90s/it]100%|██████████| 40/40 [3:36:25<00:00, 332.52s/it]100%|██████████| 40/40 [3:36:25<00:00, 324.63s/it]
+Traceback (most recent call last):
+  File "/home/mainakbiswas/driver_code_lstm.py", line 68, in <module>
+    SequentialModel_Driver("GRU", hyperparameters, train_S1, train_S2, train_y, cv_S1, cv_S2, cv_y, test_S1, test_S2, test_y, result_dir+"model_GRU.pt", test_result_loc, S1_all, S2_all, result_dir+"plots", False)
+  File "/home/mainakbiswas/data_manipulation.py", line 229, in SequentialModel_Driver
+    test_acc = test_model(model, hyperparameters, test_S1, test_S2, test_y, test_result_loc, device, S1_all, S2_all) 
+  File "/home/mainakbiswas/data_manipulation.py", line 252, in test_model
+    if is_padded == True:
+NameError: name 'is_padded' is not defined

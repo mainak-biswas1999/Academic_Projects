@@ -1,0 +1,7 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /home/mainakbiswas/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/mainakbiswas/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [04:05<36:48, 245.40s/it] 20%|██        | 2/10 [08:09<32:39, 244.91s/it] 30%|███       | 3/10 [12:15<28:36, 245.19s/it] 40%|████      | 4/10 [16:20<24:30, 245.12s/it] 50%|█████     | 5/10 [20:27<20:28, 245.74s/it] 60%|██████    | 6/10 [24:33<16:23, 245.78s/it] 70%|███████   | 7/10 [28:42<12:20, 246.90s/it] 80%|████████  | 8/10 [32:53<08:16, 248.22s/it] 90%|█████████ | 9/10 [37:02<04:08, 248.62s/it]100%|██████████| 10/10 [41:13<00:00, 249.25s/it]100%|██████████| 10/10 [41:13<00:00, 247.36s/it]

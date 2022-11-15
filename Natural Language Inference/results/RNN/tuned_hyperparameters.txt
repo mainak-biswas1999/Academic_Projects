@@ -1,0 +1,29 @@
+for optimizer: sgd cv accuracy maximized to 0.590669870394641 with following hyperparameters:
+ {'emb_size': 200, 'hidden_size': 256, 'fc_size': 128, 'num_layers': 3, 'dropout_rnn': 0.2276923697797948, 'dropout_fc': 0.43666747424309055, 'learning_rate': 0.007751124787494577, 'l2_reg': 0.001}
+---------------------------------------------------------------------------
+for optimizer: adam cv accuracy maximized to 0.630669870394641 with following hyperparameters:
+{'emb_size': 200, 'hidden_size': 256, 'fc_size': 128, 'num_layers': 3, 'dropout_rnn': 0.29220761733241096, 'dropout_fc': 0.33489402875076857, 'learning_rate': 0.005281647879556434, 'l2_reg': 0.054793046215121786}
+---------------------------------------------------------------------------
+
+
+
+
+#The above is the output of the code
+So selected hyperparameters selected:
+hyp_sugg = {'learning_rate':0.005281647879556434,
+                'l2_reg': 0.054793046215121786,
+                'dropout_rnn':  0.29220761733241096,
+                'dropout_fc': 0.33489402875076857,
+                'optimizer': 'adam'
+                'num_layers': 3,
+                'hidden_size': 256,
+                'fc_size': 128,
+                'emb_size': 200
+                }
+hyp_non_opt = {'vocab_size': vocab_size+1,
+                     'batch_size': 128,
+                      'num_labels': 3,
+                      'num_epochs': 10
+                     }
+
+		
